@@ -11457,4 +11457,6 @@
     <string name="torch_power_button_gesture_dt">Double tap power to toggle Torch</string>
     <string name="torch_power_button_gesture_lp">Long press power to toggle Torch</string>
 
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Close</string>
 </resources>
