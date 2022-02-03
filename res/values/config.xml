@@ -619,5 +619,8 @@
     <bool name="config_battery_combine_system_components">false</bool>
 
     <!-- Whether to show the Preference for Touch Sensitivity -->
-    <bool name="config_show_touch_sensitivity">false</bool>
+    <bool name="config_show_touch_sensitivity">true</bool>
+
+    <!-- Fingerprint -->
+    <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 </resources>
