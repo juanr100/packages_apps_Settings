@@ -43,7 +43,7 @@ import com.android.settings.sound.HandsFreeProfileOutputPreferenceController;
 import com.android.settings.widget.PreferenceCategoryController;	 	 
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.instrumentation.Instrumentable;
-import com.android.internal.util.spark.SparkUtils;
+import com.android.internal.util.custom.CustomUtils;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.widget.UpdatableListPreferenceDialogFragment;
