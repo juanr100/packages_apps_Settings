@@ -14196,4 +14196,10 @@
     <string name="fingerprint_enroll_find_sensor_message_front">Locate the fingerprint sensor on the front of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_rear">Locate the fingerprint sensor on the back of your phone.</string>
     <string name="fingerprint_enroll_find_sensor_message_side">Locate the fingerprint sensor on the side of your phone.</string>
+    
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
