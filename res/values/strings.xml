@@ -14564,4 +14564,9 @@
     <string name="keywords_touch_sensitivity">touch, sensitivity, sensitive, screen protector, film, responsive, responsiveness</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
+    
+    <string name="button_settings_power_title">Power Button</string>
+    <!-- Lockscreen torch -->
+    <string name="torch_power_button_gesture_title">Screen-off torch</string>
+    <string name="torch_power_button_gesture_summary">Longpress power button with screen off turns on torch</string>
 </resources>
