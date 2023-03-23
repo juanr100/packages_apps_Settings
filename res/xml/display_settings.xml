@@ -55,16 +55,6 @@
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="power_button_category"
-        android:title="@string/button_settings_power_title" />
-
-        <com.android.settings.benzo.SecureSettingSwitchPreference
-            android:key="torch_power_button_gesture"
-            android:title="@string/torch_power_button_gesture_title"
-            android:summary="@string/torch_power_button_gesture_summary"
-            android:defaultValue="false" />
             
     <PreferenceCategory
         android:title="@string/category_name_appearance">

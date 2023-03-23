@@ -81,6 +81,16 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
+    <PreferenceCategory
+        android:key="power_button_category"
+        android:title="@string/button_settings_power_title" />
+
+        <com.android.settings.benzo.SecureSettingSwitchPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/torch_power_button_gesture_title"
+            android:summary="@string/torch_power_button_gesture_summary"
+            android:defaultValue="false" />
+            
     <Preference
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
