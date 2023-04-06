@@ -14569,4 +14569,10 @@
     <!-- Lockscreen torch -->
     <string name="torch_power_button_gesture_title">Screen-off torch</string>
     <string name="torch_power_button_gesture_summary">Longpress power button with screen off turns on torch</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
