@@ -36,7 +36,7 @@
     <bool name="config_allow_edit_carrier_enabled" translatable="false">false</bool>
 
     <!-- When true enable color temperature setting. -->
-    <bool name="config_enableColorTemperature">false</bool>
+    <bool name="config_enableColorTemperature">true</bool>
 
     <!-- Whether to show Camera laser sensor switch in Developer Options -->
     <bool name="config_show_camera_laser_sensor">false</bool>
@@ -67,20 +67,17 @@
     <string name="gesture_double_twist_sensor_vendor" translatable="false"></string>
 
     <!-- When true enable gesture setting. -->
-    <bool name="config_gesture_settings_enabled">false</bool>
+    <bool name="config_gesture_settings_enabled">true</bool>
 
     <!-- If the Storage Manager settings are enabled. -->
-    <bool name="config_storage_manager_settings_enabled">false</bool>
+    <bool name="config_storage_manager_settings_enabled">true</bool>
 
     <!-- If the support features are enabled. -->
     <bool name="config_support_enabled">false</bool>
 
     <!-- List containing the component names of pre-installed screen reader services. -->
     <string-array name="config_preinstalled_screen_reader_services" translatable="false">
-        <!--
-        <item>com.example.package.first/com.example.class.FirstService</item>
-        <item>com.example.package.second/com.example.class.SecondService</item>
-        -->
+        <item>com.android.talkback/com.google.android.marvin.talkback.TalkBackService</item>
     </string-array>
 
     <!-- List containing the component names of pre-installed captioning services. -->
@@ -221,10 +218,10 @@
         Whether or not the homepage should be powered by legacy suggestion (versus contextual cards)
         Default to true as not all devices support contextual cards.
     -->
-    <bool name="config_use_legacy_suggestion">true</bool>
+    <bool name="config_use_legacy_suggestion">false</bool>
 
     <!-- Whether or not homepage should display user's account avatar -->
-    <bool name="config_show_avatar_in_homepage">false</bool>
+    <bool name="config_show_avatar_in_homepage">true</bool>
 
     <!-- Whether or not emergency info tile should display in device info page -->
     <bool name="config_show_emergency_info_in_device_info">true</bool>
@@ -243,7 +240,7 @@
 
     <!-- Settings intelligence package name -->
     <string name="config_settingsintelligence_package_name" translatable="false">
-        com.android.settings.intelligence
+        com.google.android.settings.intelligence
     </string>
 
     <!-- Whether the confirmation for sim deletion is defaulted to be on or off-->
@@ -255,7 +252,7 @@
     </string>
 
     <!-- Settings intelligence interaction log intent action -->
-    <string name="config_settingsintelligence_log_action" translatable="false"></string>
+    <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.LOG_BRIDGE</string>
 
     <!-- AOSP Emergency app package name -->
     <string name="config_aosp_emergency_package_name" translatable="false">
@@ -331,7 +328,7 @@
     <!-- Whether to show a preference item for the manual in About phone -->
     <bool name="config_show_manual">false</bool>
     <!-- Whether to show a preference item for regulatory information in About phone -->
-    <bool name="config_show_regulatory_info">false</bool>
+    <bool name="config_show_regulatory_info">true</bool>
 
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">true</bool>
@@ -523,7 +520,7 @@
     <bool name="config_nfc_detection_point">false</bool>
 
     <!-- Whether to show Smooth Display feature in Settings Options -->
-    <bool name="config_show_smooth_display">false</bool>
+    <bool name="config_show_smooth_display">true</bool>
 
     <!-- Whether to show emergency settings in top-level Settings -->
     <bool name="config_show_emergency_settings">true</bool>
@@ -535,16 +532,16 @@
     <string name="emergency_gesture_settings_package"></string>
 
     <!-- Whether to show the Preference for Adaptive connectivity -->
-    <bool name="config_show_adaptive_connectivity">false</bool>
+    <bool name="config_show_adaptive_connectivity">true</bool>
 
     <!-- Authority of advanced device battery prediction -->
-    <string name="config_battery_prediction_authority" translatable="false"></string>
+    <string name="config_battery_prediction_authority" translatable="false">com.google.android.apps.turbo.bluetooth.estimated_time_remaining</string>
 
     <!-- Whether to handle slot change events -->
     <bool name="config_handle_sim_slot_change">false</bool>
 
     <!-- whether use partner overlay theme for outside setupwizard flow -->
-    <bool name="config_suc_use_partner_resource">false</bool>
+    <bool name="config_suc_use_partner_resource">true</bool>
 
     <!-- Cell broacast receiver package name -->
     <string name="config_cell_broadcast_receiver_package" translatable="false">com.android.cellbroadcastreceiver.module</string>
@@ -657,7 +654,7 @@
     <bool name="default_allow_sensitive_lockscreen_content">true</bool>
 
     <!-- Whether to enable the app battery usage list page feature. -->
-    <bool name="config_app_battery_usage_list_enabled">false</bool>
+    <bool name="config_app_battery_usage_list_enabled">true</bool>
 
     <!-- Whether sim related information is visible to the end user. -->
     <bool name="config_show_sim_info">true</bool>
@@ -673,7 +670,7 @@
     
     <!-- Settings intelligence suggestions class -->
     <string name="config_settingsintelligence_suggestions_class" translatable="false">
-        com.android.settings.intelligence.suggestions.SuggestionService
+        com.google.android.settings.intelligence.modules.suggestions.SuggestionService
     </string>
 
     <!-- Whether to display the 3G option at network mode.-->
