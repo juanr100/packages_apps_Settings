@@ -670,6 +670,11 @@
     <bool name="enrollment_prioritize_acquire_messages">false</bool>
     <!-- Control messages displayed during enrollment -->
     <bool name="enrollment_message_display_controller_flag">false</bool>
+    
+    <!-- Settings intelligence suggestions class -->
+    <string name="config_settingsintelligence_suggestions_class" translatable="false">
+        com.android.settings.intelligence.suggestions.SuggestionService
+    </string>
 
     <!-- Whether to display the 3G option at network mode.-->
     <bool name="config_display_network_mode_3g_option">true</bool>
