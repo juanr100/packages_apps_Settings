@@ -119,6 +119,10 @@
     <uses-permission android:name="android.permission.SEND_SAFETY_CENTER_UPDATE" />
     <uses-permission android:name="android.permission.START_VIEW_APP_FEATURES" />
     <uses-permission android:name="android.permission.CUSTOMIZE_SYSTEM_UI" />
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
 
     <application
             android:name=".SettingsApplication"
@@ -4542,6 +4546,40 @@
             <intent-filter>
                 <action android:name="android.settings.BLUETOOTH_LE_AUDIO_QR_CODE_SCANNER"/>
                 <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.google.android.settings.biometrics.face.FaceEnrollTrampoline"
+            android:theme="@style/SudThemeGlif.Light"
+            android:exported="true"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.google.android.settings.biometrics.face.FaceEnrollEnrolling"
+            android:theme="@style/SudThemeGlif.Light"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.google.android.settings.biometrics.face.FaceEnrollParticipation"
+            android:theme="@style/SudThemeGlif.Light"
+            android:exported="false"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.google.android.settings.biometrics.face.FaceEnrollConfirmation"
+            android:theme="@style/SudThemeGlif.Light"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action
+            android:name="com.google.android.settings.action.CONFIRM_FACE_ENROLLMENT"/>
+                <category
+            android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 

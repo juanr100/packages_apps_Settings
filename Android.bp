@@ -20,6 +20,12 @@ java_library {
     srcs: ["src/**/*.logtags"],
 }
 
+java_import {
+    name: "settings-google",
+    sdk_version: "33",
+    jars: ["libs/settings-google.jar"],
+}
+
 genrule {
     name: "statslog-settings-java-gen",
     tools: ["stats-log-api-gen"],
@@ -89,6 +95,7 @@ android_library {
         "SettingsLibActivityEmbedding",
         "Settings-change-ids",
         "SystemUIUnfoldLib",
+        "settings-google",
     ],
 
     libs: [
